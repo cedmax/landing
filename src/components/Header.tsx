@@ -1,4 +1,4 @@
-import { memo } from "react"
+import React, { memo } from "react"
 
 const videoUrl = "https://dl.dropboxusercontent.com/s/16y8s4xylk52uyh/drone.mp4"
 import { Link } from "react-scroll"

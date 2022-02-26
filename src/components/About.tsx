@@ -1,4 +1,4 @@
-import { memo } from "react"
+import React, { memo } from "react"
 import Section from "./Section"
 export default memo(() => (
   <Section id="about" className="bg-white">
