@@ -1,5 +1,5 @@
 export { default as Header } from "./Header"
 export { default as About } from "./About"
 export { default as Vision } from "./Vision"
-export { default as Promo } from "./Promo"
-export { default as Footer } from "./Footer"
+export { default as Trailer } from "./Trailer"
+export { default as Credits } from "./Credits"

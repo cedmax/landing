@@ -1,18 +1,20 @@
-import React from "react"
+import React, { memo } from "react"
 
-import { About, Vision, Promo, Header, Footer } from "../components"
+import { About, Vision, Trailer, Credits, Header } from "../components"
 
 function App() {
   return (
     <>
+      <Header />
+
       <main className="relative z-1">
         <About />
         <Vision />
-        <Promo />
-        <Footer />
+        <Trailer />
+        <Credits />
       </main>
     </>
   )
 }
 
-export default App
+export default memo(App)
