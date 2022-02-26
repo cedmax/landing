@@ -2,7 +2,7 @@
   font-family: "Impacted";
   font-style: normal;
   font-weight: normal;
-  src: local("Impacted"), url("IMPACTED.woff") format("woff");
+  src: local("Impacted"), url("/IMPACTED.woff") format("woff");
 }
 
 .object-cover {
