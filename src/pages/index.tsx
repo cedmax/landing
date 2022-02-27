@@ -8,10 +8,10 @@ function App() {
       <Header />
 
       <main className="relative z-1">
-        <About />
-        <Vision />
-        <Trailer />
-        <Credits />
+        <About id="about" prev="header" next="vision" />
+        <Vision id="vision" prev="about" next="trailer" />
+        <Trailer id="trailer" prev="vision" next="credits" />
+        <Credits id="credits" prev="trailer" />
       </main>
     </>
   )

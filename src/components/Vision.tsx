@@ -1,8 +1,8 @@
 import React, { memo } from "react"
 import Section from "./Section"
 
-export default memo(() => (
-  <Section id="vision">
+export default memo((props: ISectProps) => (
+  <Section {...props}>
     <div className="bg-opaque pv2 pv4-ns ph5-ns pl4 measure-wide f3 center mv5 black-70">
       <h1 className="fw6 f3 avenir">Director's Vision</h1>
       <blockquote className="baskerville ml0 mt0 pl4 black-90 bl bw2 b--blue">

@@ -1,8 +1,8 @@
 import { defineConfig } from "vite"
 import ssrgPlugin from "vite-plugin-ssr-ssg"
-import reactRefresh from "@vitejs/plugin-react-refresh"
+import react from "@vitejs/plugin-react"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [reactRefresh(), ssrgPlugin()],
+  plugins: [react(), ssrgPlugin()],
 })

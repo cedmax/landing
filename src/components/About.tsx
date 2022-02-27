@@ -1,7 +1,7 @@
 import React, { memo } from "react"
 import Section from "./Section"
-export default memo(() => (
-  <Section id="about" className="bg-white">
+export default memo((props: ISectProps) => (
+  <Section {...props} className="bg-white">
     <div className="p2 pv5-ns ph4-ns ph5-m ph6-l">
       <div className="pb5 f4 f2-ns measure center">
         <p className="db lh-copy black-70 serif fw1 mv0 f4 f3-m f2-l measure baskerville">

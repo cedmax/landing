@@ -1,8 +1,8 @@
 import React, { memo } from "react"
 import Section from "./Section"
 
-export default memo(() => (
-  <Section id="trailer" className="bg-white">
+export default memo((props: ISectProps) => (
+  <Section {...props} className="bg-white">
     <div className="measure-wide f3 center mv5">
       <div className="aspect-ratio aspect-ratio--16x9">
         <iframe

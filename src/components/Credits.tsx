@@ -1,8 +1,8 @@
 import React, { memo } from "react"
 import Section from "./Section"
 
-export default memo(() => (
-  <Section id="credits" as="footer" className="bg-opaque">
+export default memo((props: ISectProps) => (
+  <Section {...props} as="footer" className="bg-opaque">
     <section className="f4 black-70 avenir center cf">
       <h1 className="tc f5 ttu fw6 tracked mb2 ">Credits</h1>
       <dl className="lh-title pa4 mv0 tc pb0">

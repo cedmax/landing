@@ -4,7 +4,7 @@ const videoUrl = "https://dl.dropboxusercontent.com/s/16y8s4xylk52uyh/drone.mp4"
 import { Link } from "react-scroll"
 
 export default memo(() => (
-  <header className="vh-100 w-100 bg-dark-gray">
+  <header id="header" className="vh-100 w-100 bg-dark-gray">
     <video className="fixed w-100 h-100 object-cover" autoPlay muted loop>
       <source src={videoUrl} />
     </video>
