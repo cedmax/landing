@@ -6,7 +6,7 @@ export default memo((props: ISectProps) => (
     <section className="f4 black-70 avenir center cf">
       <h1 className="tc f5 ttu fw6 tracked mb2 ">Credits</h1>
       <dl className="lh-title pa4 mv0 tc pb0">
-        <dt className="f6 b">Director</dt>
+        <dt className="f6 b mt2">By and with</dt>
         <dd className="ml0 mb3 baskerville">
           <a
             href="https://ireneros.net"
@@ -16,9 +16,8 @@ export default memo((props: ISectProps) => (
           >
             Irene Ros
           </a>
+          , Mrc & Rtr
         </dd>
-        <dt className="f6 b mt2">By and with</dt>
-        <dd className="ml0 mb3 baskerville">Irene Ros, Mrc & Rtr</dd>
         <dt className="f6 b mt2">Animations</dt>
         <dd className="ml0 mb3 baskerville">
           <a
