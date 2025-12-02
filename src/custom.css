@@ -23,3 +23,7 @@
 .h15 {
   height: 1.5rem;
 }
+
+p {
+  text-wrap: pretty;
+}

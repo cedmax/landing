@@ -53,14 +53,6 @@ export default memo(() => (
           >
             Credits
           </Link>
-          <a
-            className="link dim white f6 f5-ns dib  pointer underline-hover"
-            href="https://www.crowdfunder.co.uk/p/landing-short-film"
-            target="_blank"
-            rel="noopener noreferral"
-          >
-            Donate
-          </a>
         </div>
       </div>
     </div>
